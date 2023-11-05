@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "matrix-generator"
+version = "0.1.0"
+description = ""
+authors = ["aambrose-unh <aambrose.unh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1.26.1"
+matplotlib = "^3.8.1"
+
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.0.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
